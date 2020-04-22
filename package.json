@@ -4,36 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && mocha server/**/*.test.js --timeout 10000",
-    "test-watch": "nodemon --exec \"npm test\"",
-    "start": "node server/server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thienhiep1711/node-todo-api.git"
+    "url": "git+https://github.com/thienhiep1711/github-page.io.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thienhiep1711/node-todo-api/issues"
+    "url": "https://github.com/thienhiep1711/github-page.io/issues"
   },
-  "homepage": "https://github.com/thienhiep1711/node-todo-api#readme",
+  "homepage": "https://github.com/thienhiep1711/github-page.io#readme",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.18.3",
-    "crypto-js": "^3.1.9-1",
-    "express": "^4.16.4",
-    "jsonwebtoken": "^8.5.1",
-    "lodash": "^4.17.11",
-    "mongodb": "^3.2.2",
-    "mongoose": "^5.4.20",
-    "path": "^0.12.7",
-    "validator": "^10.11.0"
-  },
-  "devDependencies": {
-    "expect": "^24.5.0",
-    "mocha": "^6.0.2",
-    "nodemon": "^1.18.10",
-    "supertest": "^4.0.2"
+    "express": "^4.17.1",
+    "path": "^0.12.7"
   }
 }
