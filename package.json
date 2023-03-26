@@ -1,5 +1,5 @@
 {
-  "name": "todo-api",
+  "name": "resume-website",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thienhiep1711/github-page.io.git"
+    "url": "git+https://github.com/thienhiep1711/resume-projects.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thienhiep1711/github-page.io/issues"
+    "url": "https://github.com/thienhiep1711/resume-projects/issues"
   },
-  "homepage": "https://github.com/thienhiep1711/github-page.io#readme",
+  "homepage": "https://thienhiep1711.github.io/resume-projects/",
   "dependencies": {
     "express": "^4.17.1",
     "path": "^0.12.7"

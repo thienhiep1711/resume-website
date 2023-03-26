@@ -2,7 +2,7 @@ const path = require('path')
 const express = require('express')
 
 const publicPath = path.join(__dirname, '/dist')
-console.log(publicPath)
+
 const port = process.env.PORT || 8000
 const app = express()
 
